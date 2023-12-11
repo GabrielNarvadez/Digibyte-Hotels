@@ -16,8 +16,118 @@
 
             <!-- ======================== Navigation ======================== -->
 
-            {% include 'personal/snippets/nav.html' %}
+            <div class="container">
 
+                <!-- === navigation-top === -->
+
+                <nav class="navigation-top clearfix">
+
+                    <!-- navigation-top-left -->
+
+                    <div class="navigation-top-left">
+                        <a class="box" href="#">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        <a class="box" href="#">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a class="box" href="#">
+                            <i class="fa fa-youtube"></i>
+                        </a>
+                    </div>
+
+                    <!-- navigation-top-right -->
+
+                    <div class="navigation-top-right">
+                        <a class="box" href="#">
+                            <i class="icon icon-star"></i> 
+                            Special offers
+                        </a>
+                        <a class="box" href="reservation-1.html">
+                            <i class="icon icon-tag"></i> 
+                            Reservations
+                        </a>
+                        <a class="box" href="#">
+                            <i class="icon icon-phone-handset"></i> 
+                            (01) 252-3333
+                        </a>
+                    </div>
+                </nav>
+
+                <!-- === navigation-main === -->
+
+                <nav class="navigation-main clearfix">
+
+                    <!-- logo -->
+
+                    <div class="logo animated fadeIn">
+                        <a href="index.html">
+                            <img class="logo-desktop" src="assets/images/logo.png" alt="Alternate Text" />
+                            <img class="logo-mobile" src="assets/images/logo-mobile.png" alt="Alternate Text" />
+                        </a>
+                    </div>
+
+                    <!-- toggle-menu -->
+
+                    <div class="toggle-menu"><i class="icon icon-menu"></i></div>
+
+                    <!-- navigation-block -->
+
+                    <div class="navigation-block clearfix">
+
+                        <!-- navigation-left -->
+
+                        <ul class="navigation-left">
+                            <li>
+                                <a href="index.html">Home <span class="open-dropdown"><i class="fa fa-angle-down"></i></span></a>
+                                <ul>
+                                    <li><a href="index.html">Home - Booking intro</a></li>
+                                    <li><a href="index-2.html">Home - Booking box</a></li>
+                                    <li><a href="index-3.html">Home - Rooms intro</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Pages <span class="open-dropdown"><i class="fa fa-angle-down"></i></span></a>
+                                <ul>
+                                    <li><a href="about.html">About us</a></li>
+                                    <li><a href="rooms-category.html">Rooms category</a></li>
+                                    <li><a href="room-overview.html">Room overview</a></li>
+                                    <li><a href="404.html">404 Not found</a></li>
+                                    <li><a href="shortcodes.html">Shortcodes</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Booking <span class="open-dropdown"><i class="fa fa-angle-down"></i></span></a>
+                                <ul>
+                                    <li><a href="reservation-1.html">Booking step 1</a></li>
+                                    <li><a href="reservation-2.html">Booking step 2</a></li>
+                                    <li><a href="reservation-3.html">Booking step 3</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <!-- navigation-right -->
+
+                        <ul class="navigation-right">
+                            <li>
+                                <a href="facility.html">Facilities</a>
+                            </li>
+                            <li>
+                                <a href="#">Blog <span class="open-dropdown"><i class="fa fa-angle-down"></i></span></a>
+                                <ul>
+                                    <li><a href="blog-category.html">Blog category</a></li>
+                                    <li><a href="blog-item.html">Blog item</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+
+                    </div> <!--/navigation-block-->
+
+                </nav>
+            </div> <!--/container-->
 
         </header>
 
@@ -27,7 +137,7 @@
 
             <!-- ===  Page header === -->
 
-            <div class="page-header" style="background-image:url(../static/assets/images/header-1.jpg)">
+            <div class="page-header" style="background-image:url(assets/images/header-1.jpg)">
                 <div class="container">
                     <h2 class="title">Contact</h2>
                     <p>The place, our services & our team</p>
@@ -115,7 +225,7 @@
                                                 <span class="icon icon-map-marker"></span>
                                                 <figcaption>
                                                     <strong>Where are we?</strong>
-                                                    <span>Digibyte Cove, Hamilo Coast,  <br /> Barangay Papaya, Nasugbu, 4321 Batangas, Philippines</span>
+                                                    <span>200 12th Ave, New York, <br />NY 10001, USA</span>
                                                 </figcaption>
                                             </figure>
                                         </div>
@@ -125,8 +235,8 @@
                                                 <figcaption>
                                                     <strong>Call us</strong>
                                                     <span>
-                                                        <strong>Telephone</strong> +632 8 464 7888  <br />
-                                                        <strong>Mobile</strong> +63 917 809 12 89 | +63 917 845 5847 | +63 917 834 3302
+                                                        <strong>T</strong> +1 222 333 4444 <br />
+                                                        <strong>F</strong> +1 222 333 5555
                                                     </span>
                                                 </figcaption>
                                             </figure>
@@ -137,8 +247,8 @@
                                                 <figcaption>
                                                     <strong>Working hours</strong>
                                                     <span>
-                                                        <strong>Mon - Sat</strong> : 7 am - 8 pm <br />
-                                                        <strong>Sun</strong> 9pm - 6 pm
+                                                        <strong>Mon</strong> - Sat: 10 am - 6 pm <br />
+                                                        <strong>Sun</strong> 12pm - 2 pm
                                                     </span>
                                                 </figcaption>
                                             </figure>
@@ -178,7 +288,7 @@
         function initMap() {
             var contentString =
             '<div class="map-info-window">' +
-            '<p><img src="../static/assets/images/logo-dark.png" alt=""></p>' +
+            '<p><img src="assets/images/logo-dark.png" alt=""></p>' +
             '<p><strong>Colina Resort</strong></p>' +
             '<p><i class="fa fa-map-marker"></i> 200 12th Ave, New York, NY 10001, USA</p>' +
             '<p><i class="fa fa-phone"></i> +12 33 444 555</p>' +
@@ -196,7 +306,7 @@
                 styles: [{ "featureType": "administrative.locality", "elementType": "all", "stylers": [{ "hue": "#2c2e33" }, { "saturation": 7 }, { "lightness": 19 }, { "visibility": "on" }] }, { "featureType": "landscape", "elementType": "all", "stylers": [{ "hue": "#ffffff" }, { "saturation": -100 }, { "lightness": 100 }, { "visibility": "simplified" }] }, { "featureType": "poi", "elementType": "all", "stylers": [{ "hue": "#ffffff" }, { "saturation": -100 }, { "lightness": 100 }, { "visibility": "off" }] }, { "featureType": "road", "elementType": "geometry", "stylers": [{ "hue": "#bbc0c4" }, { "saturation": -93 }, { "lightness": 31 }, { "visibility": "simplified" }] }, { "featureType": "road", "elementType": "labels", "stylers": [{ "hue": "#bbc0c4" }, { "saturation": -93 }, { "lightness": 31 }, { "visibility": "on" }] }, { "featureType": "road.arterial", "elementType": "labels", "stylers": [{ "hue": "#bbc0c4" }, { "saturation": -93 }, { "lightness": -2 }, { "visibility": "simplified" }] }, { "featureType": "road.local", "elementType": "geometry", "stylers": [{ "hue": "#e9ebed" }, { "saturation": -90 }, { "lightness": -8 }, { "visibility": "simplified" }] }, { "featureType": "transit", "elementType": "all", "stylers": [{ "hue": "#e9ebed" }, { "saturation": 10 }, { "lightness": 69 }, { "visibility": "on" }] }, { "featureType": "water", "elementType": "all", "stylers": [{ "hue": "#e9ebed" }, { "saturation": -78 }, { "lightness": 67 }, { "visibility": "simplified" }] }]
             });
             //set marker
-            var image = '../static/assets/images/map-icon.png';
+            var image = 'assets/images/map-icon.png';
             var marker = new google.maps.Marker({
                 position: myLatLng,
                 map: map,
