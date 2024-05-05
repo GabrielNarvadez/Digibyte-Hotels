@@ -1,118 +1,154 @@
-<header>
-
-    <!-- ======================== Navigation ======================== -->
-
-    <div class="container">
-
-        <!-- === navigation-top === -->
-
-        <nav class="navigation-top clearfix">
-
-            <!-- navigation-top-left -->
-
-            <div class="navigation-top-left">
-                <a class="box" href="#">
-                    <i class="fa fa-facebook"></i>
-                </a>
-                <a class="box" href="#">
-                    <i class="fa fa-twitter"></i>
-                </a>
-                <a class="box" href="#">
-                    <i class="fa fa-youtube"></i>
-                </a>
-            </div>
-
-            <!-- navigation-top-right -->
-
-            <div class="navigation-top-right">
-                <a class="box" href="#">
-                    <i class="icon icon-star"></i> 
-                    Special offers
-                </a>
-                <a class="box" href="reservation-1.html">
-                    <i class="icon icon-tag"></i> 
-                    Reservations
-                </a>
-                <a class="box" href="#">
-                    <i class="icon icon-phone-handset"></i> 
-                    (01) 252-3333
-                </a>
-            </div>
-        </nav>
-
-        <!-- === navigation-main === -->
-
-        <nav class="navigation-main clearfix">
-
-            <!-- logo -->
-
-            <div class="logo animated fadeIn">
-                <a href="index.html">
-                    <img class="logo-desktop" src="../../../static/assets/logo.png" alt="Alternate Text" />
-                    <img class="logo-mobile" src="../../../static/assets/logo-mobile.png" alt="Alternate Text" />
-                </a>
-            </div>
-
-            <!-- toggle-menu -->
-
-            <div class="toggle-menu"><i class="icon icon-menu"></i></div>
-
-            <!-- navigation-block -->
-
-            <div class="navigation-block clearfix">
-
-                <!-- navigation-left -->
-
-                <ul class="navigation-left">
-                    <li>
-                        <a href="index.html">Home <span class="open-dropdown"><i class="fa fa-angle-down"></i></span></a>
-                        <ul>
-                            <li><a href="index.html">Home - Booking intro</a></li>
-                            <li><a href="index-2.html">Home - Booking box</a></li>
-                            <li><a href="index-3.html">Home - Rooms intro</a></li>
-                        </ul>
+    <!--==============================
+     Preloader
+  ==============================-->
+  <div class="preloader ">
+    <button class="th-btn preloaderCls">Cancel Preloader </button>
+    <div class="preloader-inner">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+<!--==============================
+Sidemenu
+============================== -->
+<div class="sidemenu-wrapper d-none d-lg-block ">
+    <div class="sidemenu-content">
+        <button class="closeButton sideMenuCls"><i class="far fa-times"></i></button>
+        <div class="widget woocommerce widget_shopping_cart">
+            <h3 class="widget_title">Shopping cart</h3>
+            <div class="widget_shopping_cart_content">
+                <ul class="woocommerce-mini-cart cart_list product_list_widget ">
+                    <li class="woocommerce-mini-cart-item mini_cart_item">
+                        <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
+                        <a href="#"><img src="../../static/../../static/assets/img/product/product_thumb_1_1.png" alt="Cart Image">Flooring-Vinyl</a>
+                        <span class="quantity">1 ×
+                            <span class="woocommerce-Price-amount amount">
+                                <span class="woocommerce-Price-currencySymbol">$</span>940.00</span>
+                        </span>
                     </li>
-                    <li>
-                        <a href="#">Pages <span class="open-dropdown"><i class="fa fa-angle-down"></i></span></a>
-                        <ul>
-                            <li><a href="../about.html">About us</a></li>
-                            <li><a href="rooms-category.html">Rooms category</a></li>
-                            <li><a href="room-overview.html">Room overview</a></li>
-                            <li><a href="404.html">404 Not found</a></li>
-                            <li><a href="shortcodes.html">Shortcodes</a></li>
-                        </ul>
+                    <li class="woocommerce-mini-cart-item mini_cart_item">
+                        <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
+                        <a href="#"><img src="../../static/assets/img/product/product_thumb_1_2.png" alt="Cart Image">Cement Metal Roof</a>
+                        <span class="quantity">1 ×
+                            <span class="woocommerce-Price-amount amount">
+                                <span class="woocommerce-Price-currencySymbol">$</span>899.00</span>
+                        </span>
                     </li>
-                    <li>
-                        <a href="#">Booking <span class="open-dropdown"><i class="fa fa-angle-down"></i></span></a>
-                        <ul>
-                            <li><a href="reservation-1.html">Booking step 1</a></li>
-                            <li><a href="reservation-2.html">Booking step 2</a></li>
-                            <li><a href="reservation-3.html">Booking step 3</a></li>
-                        </ul>
+                    <li class="woocommerce-mini-cart-item mini_cart_item">
+                        <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
+                        <a href="#"><img src="../../static/assets/img/product/product_thumb_1_3.png" alt="Cart Image">Metal Roof Steel</a>
+                        <span class="quantity">1 ×
+                            <span class="woocommerce-Price-amount amount">
+                                <span class="woocommerce-Price-currencySymbol">$</span>756.00</span>
+                        </span>
+                    </li>
+                    <li class="woocommerce-mini-cart-item mini_cart_item">
+                        <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
+                        <a href="#"><img src="../../static/assets/img/product/product_thumb_1_4.png" alt="Cart Image">Roof Tiles Braas</a>
+                        <span class="quantity">1 ×
+                            <span class="woocommerce-Price-amount amount">
+                                <span class="woocommerce-Price-currencySymbol">$</span>723.00</span>
+                        </span>
+                    </li>
+                    <li class="woocommerce-mini-cart-item mini_cart_item">
+                        <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
+                        <a href="#"><img src="../../static/assets/img/product/product_thumb_1_5.png" alt="Cart Image">Physical Hardware</a>
+                        <span class="quantity">1 ×
+                            <span class="woocommerce-Price-amount amount">
+                                <span class="woocommerce-Price-currencySymbol">$</span>1080.00</span>
+                        </span>
                     </li>
                 </ul>
-
-                <!-- navigation-right -->
-
-                <ul class="navigation-right">
-                    <li>
-                        <a href="facility.html">Facilities</a>
-                    </li>
-                    <li>
-                        <a href="#">Blog <span class="open-dropdown"><i class="fa fa-angle-down"></i></span></a>
-                        <ul>
-                            <li><a href="blog-category.html">Blog category</a></li>
-                            <li><a href="blog-item.html">Blog item</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
-                </ul>
-
-            </div> <!--/navigation-block-->
-
-        </nav>
-    </div> <!--/container-->
-
+                <p class="woocommerce-mini-cart__total total">
+                    <strong>Subtotal:</strong>
+                    <span class="woocommerce-Price-amount amount">
+                        <span class="woocommerce-Price-currencySymbol">$</span>4398.00</span>
+                </p>
+                <p class="woocommerce-mini-cart__buttons buttons">
+                    <a href="cart" class="th-btn wc-forward">View cart</a>
+                    <a href="checkout" class="th-btn checkout wc-forward">Checkout</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="popup-search-box d-none d-lg-block">
+    <button class="searchClose"><i class="fal fa-times"></i></button>
+    <form action="#">
+        <input type="text" placeholder="What are you looking for?">
+        <button type="submit"><i class="fal fa-search"></i></button>
+    </form>
+</div>
+<!--==============================
+Mobile Menu
+============================== -->
+<div class="th-menu-wrapper">
+    <div class="th-menu-area text-center">
+        <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
+        <div class="mobile-logo">
+            <a href="/"><img src="../../static/assets/img/logo.svg" alt="Agenxe"></a>
+        </div>
+        <div class="th-mobile-menu">
+            <ul>
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li><a href="/about">About</a></li>
+                <li>
+                    <a href="/events">Events</a>
+                </li>
+                <li>
+                    <a href="/contact">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--==============================
+Header Area
+==============================-->
+<header class="th-header header-layout2">
+    <div class="sticky-wrapper">
+        <!-- Main Menu Area -->
+        <div class="menu-area">
+            <div class="container th-container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-auto">
+                        <div class="header-logo">
+                            <a href="/"><img src="../../static/assets/img/logo.svg" alt="Agenxe"></a>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <nav class="main-menu d-none d-lg-inline-block">
+                            <ul>
+                                <li>
+                                    <a href="/">Home</a>
+                                </li>
+                                <li><a href="/about">About</a></li>
+                                <li>
+                                    <a href="/events" >Events</a>
+                                </li>
+                                <li>
+                                    <a href="/contact">Contact Us</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <button type="button" class="th-menu-toggle d-block d-lg-none"><i class="far fa-bars"></i></button>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <div class="header-button">
+                            <button type="button" class="simple-icon searchBoxToggler"><i class="far fa-search"></i></button>
+                            <button type="button" class="simple-icon sideMenuToggler">
+                            </button>
+                            <a href="contact" class="th-btn">Let’s Talk<i class="fa-solid fa-arrow-up-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </header>
